@@ -14,31 +14,22 @@
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
-                  <th>Rendering engine</th>
-                  <th>Browser</th>
-                  <th>Platform(s)</th>
-                  <th>Engine version</th>
-                  <th>CSS grade</th>
+                  <th>Inventaris</th>
+                  <th>Peminjaman</th>
+                  <th>Tanggal pinjam</th>
+                  <th>Tanggal kembali</th>
+                  <th>Status</th>
+                  <th>Jumlah</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
                   <td>Trident</td>
-                  <td>Internet
-                    Explorer 4.0
-                  </td>
+                  <td>Internet</td>
                   <td>Win 95+</td>
                   <td> 4</td>
                   <td>X</td>
-                </tr>
-                <tr>
-                <td>Trident</td>
-                  <td>Internet
-                    Explorer 5.0
-                  </td>
-                  <td>Win 95+</td>
-                  <td>5</td>
-                  <td>C</td>
+                  <td>12</td>
                 </tr>
 </table>
 @endsection

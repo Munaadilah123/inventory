@@ -18,11 +18,11 @@
                   <th>Nama</th>
                   <th>Kondisi</th>
                   <th>Keterangan</th>
+                  <th>Jumlah</th>
                   <th>Jenis</th>
                   <th>Tanggal Registrasi</th>
                   <th>Ruangan</th>
                   <th>Kode Inventaris</th>
-                  <th>Jumlah</th>
                   <th>Action</th>
                 </tr>
                 </thead>

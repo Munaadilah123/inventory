@@ -17,10 +17,15 @@ Auth::routes();
 // Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/dashboard','DashboardController@index');
+
 Route::get('/inventaris','InventarisController@index');
 Route::get('/createinventaris', 'InventarisController@create');
 Route::post('/createinventaris', 'InventarisController@store');
+
 Route::get('/peminjaman','PeminjamanController@index');
+Route::get('/createpeminajaman', 'PeminjamanController@create');
+Route::post('/createpeminjaman', 'PeminjamanController@store');
+
 Route::get('/pengembalian','PengembalianController@index');
 Route::get('/user','UserController@index');
 Route::get('/laporan','LaporanController@index');

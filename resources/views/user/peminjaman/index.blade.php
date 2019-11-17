@@ -8,37 +8,28 @@
 <div class="card">
             <div class="card-header">
               <h3 class="card-title">Data Peminjaman</h3>
+              <a href="{{url('/createpeminjaman')}}"><button type="button" class="btn btn-info float-right">Tambah</button></a>
             </div>
             <!-- /.card-header -->
             <div class="card-body">
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
-                  <th>Rendering engine</th>
-                  <th>Browser</th>
-                  <th>Platform(s)</th>
-                  <th>Engine version</th>
-                  <th>CSS grade</th>
+                  <th>Inventaris</th>
+                  <th>Peminjaman</th>
+                  <th>Jumlah</th>
+                  <th>Action</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                  <td>Trident</td>
-                  <td>Internet
-                    Explorer 4.0
+                  <td>meja</td>
+                  <td>123</td>
+                  <td>2</td>
+                  <td>
+                      <button type="button" class="btn btn-info">Edit</button>
+                      <button type="button" class="btn btn-danger">Delete</button>
                   </td>
-                  <td>Win 95+</td>
-                  <td> 4</td>
-                  <td>X</td>
                 </tr>
-                <tr>
-                <td>Trident</td>
-                  <td>Internet
-                    Explorer 5.0
-                  </td>
-                  <td>Win 95+</td>
-                  <td>5</td>
-                  <td>C</td>
-                </tr>
-</table>
+            </table>
 @endsection
